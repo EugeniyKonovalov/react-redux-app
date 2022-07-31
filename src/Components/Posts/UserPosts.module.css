@@ -1,0 +1,23 @@
+.posts {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.post {
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+}
+
+.heading {
+  font-size: 2.4rem;
+}
+
+@media (max-width: 61em) {
+  .heading {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 44em) {
+  .heading {
+    font-size: 1.4rem;
+  }
+}

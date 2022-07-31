@@ -1,0 +1,23 @@
+.comments {
+  margin-left: 6.4rem;
+}
+
+.heading {
+  font-size: 1.6rem;
+}
+.box {
+  margin-left: 1.2rem;
+}
+.email {
+  font-size: 1.2rem;
+  color: #777;
+}
+.text {
+  font-size: 1.4rem;
+}
+
+@media (max-width: 34em) {
+  .comments {
+    margin-left: 1.8rem;
+  }
+} ;
