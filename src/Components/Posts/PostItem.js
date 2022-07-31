@@ -33,7 +33,10 @@ const PostItem = (props) => {
         <div className={classes["post-box"]}>
           <h2 className={classes.heading}>{item.title}</h2>
           <p className={classes.text}>{item.body}</p>
-          <button className="button" onClick={showCommentsHandler}>
+          <button
+            className={`button ${classes["show-comments-btn"]}`}
+            onClick={showCommentsHandler}
+          >
             Show Comments
           </button>
           {isShowComments && <Comments />}

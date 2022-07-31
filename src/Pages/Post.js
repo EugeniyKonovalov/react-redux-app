@@ -4,7 +4,7 @@ import PostDetail from "../Components/Posts/PostDetail";
 const Post = () => {
   return (
     <section className="container">
-      <PostDetail />;
+      <PostDetail />
     </section>
   );
 };
