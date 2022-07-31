@@ -47,6 +47,7 @@ const PostForm = (props) => {
   };
   const onCloseModalHandler = () => {
     dispatch(uiAction.onToggleModal());
+    dispatch(uiAction.onPostEdit(false));
     navigate(-1);
   };
 

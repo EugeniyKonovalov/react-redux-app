@@ -10,6 +10,7 @@ const Backdrop = (props) => {
   const navigate = useNavigate();
   const onCloseModalHandler = () => {
     dispatch(uiAction.onToggleModal());
+    dispatch(uiAction.onPostEdit(false));
     navigate(-1);
   };
   return <div className={classes.backdrop} onClick={onCloseModalHandler} />;
